@@ -1,0 +1,85 @@
+
+/* This outline property puts an outline on all divs and the following comands give the color of the outline */
+ div {
+
+	outline: 3px solid #00FFFF;
+
+}
+
+/* The follwing commands determine the width and height of the my outermost markup */
+
+
+
+#main-content {
+	width: 960px;
+
+	height: 500px;
+
+}
+
+/* The follwing commands determine the width and height along with the alignment of the box 
+ * where there will be "PREV" and "NEXT" buttons*/
+
+.button-holder {
+
+	width: 150px;
+
+	float: left;
+
+}
+
+/* This is command determines the size of the box where there will be navigating commands including a number of varibales stated below
+ * 
+ */
+
+.button {
+
+	width: 40px;
+
+	padding: 6px;
+
+	margin: 2px;
+
+	border-width: 2px;
+
+	border-color: red;
+
+	border-style: solid;
+
+	float: left;
+
+	text-align: center;
+
+	cursor: pointer;
+
+}
+
+/* This is command to say that the broder color of the box should be yellow when it is disabled and color of the text of the 
+ * navigating commands should be black
+ * 
+ */
+
+.disabled {
+
+	cursor: default;
+
+	border-color: yellow; 
+
+	color: black; 
+
+}
+
+
+
+/*The follwing commands determine the width and height along with the alignment of the imnage holder box*/
+
+.image-holder {
+
+	width: 600px;
+
+	height: 345px;
+
+	float: left;
+
+}
+
